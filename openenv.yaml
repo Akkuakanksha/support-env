@@ -1,0 +1,14 @@
+name: support-env
+description: AI-powered customer support ticket resolution environment
+version: 0.1.0
+
+entrypoint: app.env:SupportEnv
+
+observation: app.models:Observation
+action: app.models:Action
+reward: app.models:Reward
+
+tags:
+  - customer-support
+  - real-world
+  - reasoning
